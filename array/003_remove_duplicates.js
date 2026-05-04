@@ -18,8 +18,8 @@ function removeDuplicates(arr) {
 }
 
 // Test
-let arr3 = [1, 1, 2, 2, 3, 4, 4];
-let newLength = removeDuplicates(arr3);
-console.log("After Removing Duplicates:", arr3.slice(0, newLength));
+let arr = [1, 1, 2, 2, 3, 4, 4];
+let newLength = removeDuplicates(arr);
+console.log("After Removing Duplicates:", arr.slice(0, newLength));
 console.log("New Length:", newLength);
 console.log("----------------------------------");
